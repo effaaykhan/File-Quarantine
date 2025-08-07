@@ -6,7 +6,7 @@ Step 1. Add the Sensitive Folder path in ossec.conf to enable monitoring of that
 
 ``` directories> realtime="yes">C:\Path to sensitive folder</directories>```
 
-Step 2. Create a python script ```quarantine.py``` and add the ```content``` in the file
+Step 2. Create a python script ```quarantine.py``` and add the [content](https://github.com/effaaykhan/File-Quarantine/blob/main/quarantine.py) in the file
 Step 3. Make it executable
 
 ``` pyinstaller -F quarantine.py```
